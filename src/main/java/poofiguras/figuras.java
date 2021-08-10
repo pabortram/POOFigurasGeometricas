@@ -25,6 +25,12 @@ public class figuras {
         area=base*altura;
         JOptionPane.showMessageDialog(null,"El area del rectangulo es: "+ area); 
     }
+    public void circulo(){
+        double area,radio;
+        radio=Double.parseDouble(JOptionPane.showInputDialog("Digite el radio del circulo"));
+        area=3.14*(radio*radio);
+        JOptionPane.showMessageDialog(null,"El area del circulo es: "+area);
+    }
     
         
 }

@@ -19,6 +19,7 @@ public class figurasGeometricas {
         datos.cuadrado();
         datos.triangulo();
         datos.rectangulo();
+        datos.circulo();
     }
     
 }
