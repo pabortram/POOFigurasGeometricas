@@ -15,9 +15,10 @@ public class figurasGeometricas {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        figuras a = new figuras();
-        a.cuadrado();
-        a.triangulo();
+        figuras datos = new figuras();
+        datos.cuadrado();
+        datos.triangulo();
+        datos.rectangulo();
     }
     
 }
